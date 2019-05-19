@@ -1,0 +1,19 @@
+image: docker:git
+
+stages:
+  - deploy
+
+before_script:
+  - apk --update add bash ruby gem
+
+services:
+  - docker:stable-dind
+
+release:
+  stage: deploy
+  when: manual
+  script:
+    - "echo ':rubygems_api_key: $GEM_TOKEN' > ~/.gem/credentials"
+    - gem build cassette-rails.gemspec
+    - gem push $(find . -name *.gem)
+
