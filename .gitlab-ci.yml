@@ -11,9 +11,9 @@ services:
 
 release:
   stage: deploy
-  when: manual
+  # when: manual
   script:
-    - mkdir -p ~/.gem/credentials
+    - mkdir -p ~/.gem
     - "echo ':rubygems_api_key: $GEM_TOKEN' > ~/.gem/credentials"
     - gem build cassette-rails.gemspec
     - gem push $(find . -name *.gem)
