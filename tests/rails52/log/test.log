@@ -1,0 +1,610 @@
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:48:52 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:50:24 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:50:24 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:50:50 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:50:50 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{"hello"=>"world"}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:51:44 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:51:44 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{"hello"=>"world"}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:51:44 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello"=>"world", "world"=>"asdf"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:52:14 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:52:15 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{"hello"=>"world"}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:52:15 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello"=>"world", "world"=>"asdf"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:53:34 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:53:34 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:53:34 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:58:03 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:58:03 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:58:03 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:58:40 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:58:40 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:58:40 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:58:40 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"asdf"=>"1234", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:59:22 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:59:22 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:59:22 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 21:59:22 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"asdf"=>"1234", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:00:16 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:00:16 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:00:16 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:01:00 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:01:00 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:01:00 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:02:17 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:02:17 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:02:17 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+------------------------
+CassetteTest: test_hello
+------------------------
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:05:36 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:05:36 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 1ms (Views: 0.8ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:05:36 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:05:36 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000558c9f8fb138 @tempfile=#<Tempfile:/tmp/RackMultipart20190518-57-mtaqi8.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:10:24 +0000
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:10:46 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:10:47 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:10:47 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:10:47 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000055f5011bde50 @tempfile=#<Tempfile:/tmp/RackMultipart20190518-63-caecj0.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:11:13 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:11:13 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:11:13 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:11:13 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000055711d8f35e8 @tempfile=#<Tempfile:/tmp/RackMultipart20190518-66-81ggil.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:12:16 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:13:32 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:13:32 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:13:32 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-18 22:13:32 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000055d30bd9a6a0 @tempfile=#<Tempfile:/tmp/RackMultipart20190518-72-cywysf.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 1ms (Views: 0.7ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:13:06 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:13:06 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:13:06 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:13:06 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000055e92f0075a8 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-76-feuo1j.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:17:17 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:17:17 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:17:17 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:17:17 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000055f82ad005c0 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-81-15u2g7p.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 1ms (Views: 0.7ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:23:13 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:23:13 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:23:13 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:23:13 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000055b5fa73b698 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-54-tjqf91.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:23:53 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:23:53 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:23:53 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:23:53 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000559598c1d490 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-95-l3ftuc.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:28:19 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:28:19 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:28:19 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:28:19 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000560dd6f78de0 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-248-4jno34.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:31:20 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:31:20 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:31:20 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:31:20 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00005646d57cc8e8 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-278-1irb5m6.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:31:57 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:31:57 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:31:57 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:31:57 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000561891c395d8 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-293-168gxk7.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:33:05 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:33:05 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:33:05 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:33:05 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000056204e13c828 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-307-161hyc2.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:34:26 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:34:26 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:34:26 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:34:26 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000055764d5bc430 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-321-m40u8w.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:36:27 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:36:27 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:36:27 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:36:28 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000556d2d398678 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-336-1wekbv9.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:38:58 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:38:59 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:38:59 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:38:59 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000555b23b4c980 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-350-n53yxe.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:50:10 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:50:10 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:50:10 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:50:10 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00005598df328b88 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-425-1rts4lo.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:50:59 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:50:59 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world=ok=1" for 127.0.0.1 at 2019-05-19 18:50:59 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world=ok=1"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:50:59 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00005630bb0350b0 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-439-8lw9tm.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:51:31 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:51:31 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world=ok=1" for 127.0.0.1 at 2019-05-19 18:51:31 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world=ok=1"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:51:31 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000557fea7150b0 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-453-5ov1i8.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:52:30 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:52:30 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world=ok=1" for 127.0.0.1 at 2019-05-19 18:52:30 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world=ok=1"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:52:30 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00005639ba287a68 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-467-1mx1ppo.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:53:48 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:53:48 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world&ok=1" for 127.0.0.1 at 2019-05-19 18:53:48 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world", "ok"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:53:48 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00005636b96b0648 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-495-c3zgtq.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:55:08 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:55:08 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world&ok=1" for 127.0.0.1 at 2019-05-19 18:55:08 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world", "ok"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:55:08 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000555c076ad228 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-509-137vit2.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+------------------------
+CassetteTest: test_hello
+------------------------
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:57:05 +0000
+Processing by CassetteController#index as JSON
+  Parameters: {"hello"=>"world", "cassette"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/json?hello=world" for 127.0.0.1 at 2019-05-19 18:57:05 +0000
+Processing by CassetteController#json as JSON
+  Parameters: {"hello2"=>123, "hello"=>"world", "cassette"=>{"hello2"=>123}}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world&ok=1" for 127.0.0.1 at 2019-05-19 18:57:05 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"hello2"=>"123", "world"=>"asdf", "hello"=>"world", "ok"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+Started POST "/?hello=world" for 127.0.0.1 at 2019-05-19 18:57:06 +0000
+Processing by CassetteController#index as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000561dfffb5fb8 @tempfile=#<Tempfile:/tmp/RackMultipart20190519-523-1jbfj1v.png>, @original_filename="image.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"image.png\"\r\nContent-Type: image/png\r\nContent-Length: 879\r\n">, "hello"=>"world"}
+Completed 200 OK in 0ms (Views: 0.1ms)
