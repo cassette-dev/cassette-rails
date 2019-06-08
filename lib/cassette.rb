@@ -1,4 +1,6 @@
 require 'uri'
+require "base64"
+require 'json'
 
 class CassetteMiddleware
     def initialize app
@@ -16,21 +18,21 @@ class CassetteMiddleware
       request = ActionDispatch::Request.new(env)
       status, response_headers, response = @app.call(env)
       payload = {
-        "request.method": request.method,
-        "request.path": request.path,
-        "request.body": stream_to_string(request.body),
-        "request.query": request.GET.map { |k, v| "#{k}=#{v}"},
-        "request.cookies": cookies_from_jar(request.cookie_jar),
-        "request.headers": relevant_headers(request.headers),
-        "response.status": status.to_s,
-        "response.body": response.body,
-        "response.headers": header_hash_to_list(response_headers),
+        "path": request.path,
+        "method": request.method,
+        "status": status,
+        "request_query": request.query_string,
+        "request_body": Base64.encode64(stream_to_string(request.body)),
+        "request_cookies": cookies_from_jar(request.cookie_jar),
+        "request_headers": relevant_headers(request.headers),
+        "response_body": Base64.encode64(response.body),
+        "response_headers": header_hash_to_dict(response_headers),
       }
   
       File.open(bulk_file_path, 'a') { |f| 
         f.flock(File::LOCK_EX)
         f.puts(bulk_file_separator)
-        f.puts(URI.encode_www_form(payload))
+        f.puts(JSON.generate(payload))
       }
   
       return status, response_headers, response
@@ -38,13 +40,16 @@ class CassetteMiddleware
   
     def relevant_headers(env)
       relevant = env.select { |k,v| (k.start_with? 'HTTP_' or k.upcase == "CONTENT_TYPE") and k.upcase != "HTTP_COOKIE" }
-      header_hash_to_list(relevant)
+      header_hash_to_dict(relevant)
     end
   
-    def header_hash_to_list(hash)
-      hash.collect {|k,v| [k.sub(/^HTTP_/, ''), v]}
+    def header_hash_to_dict(hash)
+      headers = hash.collect {|k,v| [k.sub(/^HTTP_/, ''), v]}
         .collect {|k,v| [k.downcase.sub('_', '-'), v]}
-        .map { |k, v| "#{k}=#{v}"}
+
+      next_headers = Hash.new { |hash, key| hash[key] = [] }
+      headers.each { |header| next_headers[header[0]] << header[1] }
+      next_headers
     end
   
     def stream_to_string(stream)
@@ -55,8 +60,8 @@ class CassetteMiddleware
     end
   
     def cookies_from_jar(cookie_jar)
-      cookies = []
-      cookie_jar.each { |cookie| cookies << "#{cookie[0]}=#{cookie[1]}" }
+      cookies = Hash.new { |hash, key| hash[key] = [] }
+      cookie_jar.each { |cookie| cookies[cookie[0]] << cookie[1] }
       cookies
     end
 end
