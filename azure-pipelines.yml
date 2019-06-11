@@ -10,6 +10,7 @@ variables:
 steps:
   - bash: |
       set -e
+      env
       sudo apt-get install ruby-full rubygems
       mkdir -p ~/.gem
       echo ":rubygems_api_key: $GEM_TOKEN" > ~/.gem/credentials
