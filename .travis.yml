@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.6
+script:
+  - mkdir -p ~/.gem
+  - 'echo ":rubygems_api_key: $GEM_TOKEN" > ~/.gem/credentials'
+  - chmod 0600 ~/.gem/credentials
+  - gem build cassette-rails.gemspec
+  - gem push $(find . -name *.gem)
