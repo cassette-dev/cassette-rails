@@ -1,14 +1,14 @@
 trigger:
-- master
+  - master
 
 pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  - bash: |
+      mkdir -p ~/.gem
+      echo ":rubygems_api_key: $GEM_TOKEN" > ~/.gem/credentials
+      chmod 0600 ~/.gem/credentials
+      gem build cassette-rails.gemspec
+      gem push $(find . -name *.gem)
+    displayName: "Publish gem"
