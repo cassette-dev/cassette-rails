@@ -18,3 +18,5 @@ steps:
       gem build cassette-rails.gemspec
       gem push $(find . -name *.gem)
     displayName: "Publish gem"
+    env:
+      GEM_TOKEN: $(GEM_TOKEN)
