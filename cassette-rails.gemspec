@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name        = 'cassette-rails'
-    s.version     = '0.0.2'
+    s.version     = '0.0.3'
     s.date        = '2019-05-19'
     s.summary     = "Rails middleware for cassette.dev"
     s.description = "Rails middleware for cassette.dev"
