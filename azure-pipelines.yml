@@ -12,11 +12,9 @@ steps:
       set -e
       sudo apt-get install ruby-full rubygems
       mkdir -p ~/.gem
-      echo ":rubygems_api_key: $env:GEM_TOKEN" > ~/.gem/credentials
+      echo ":rubygems_api_key: $GEM_TOKEN" > ~/.gem/credentials
       cat ~/.gem/credentials
       chmod 0600 ~/.gem/credentials
       gem build cassette-rails.gemspec
       gem push $(find . -name *.gem)
     displayName: "Publish gem"
-    env:
-      GEM_TOKEN: $(GEM_TOKEN)
